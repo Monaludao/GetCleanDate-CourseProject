@@ -5,7 +5,7 @@ the run_analysis.R file contains 3 functions: run_analysis, mergedata and castin
 the mean_output.txt is the output of the run_analysis function
 the code book.md indicates the variables in the mean_output.txt
 
-# run_analysis function
+## run_analysis function
 the main function is the run_analysis functino as demanded in the project instruction.
 overall, the function including 4 parts.
 ### first part: load packages
@@ -41,11 +41,11 @@ casting() function to calculate the mean of each variable. The mean_output.txt i
 created through write.table() function to produce the data which is uploaded to 
 coursera.com.
 
-# mergedata function
+## mergedata function
 This function is designed to save memories and redundant coding since there are 
 three datasets needed to be merged. The argguments include two file connection 
 and the wanted class of the returned data frame which takes "factor" as default.
 
-# casting function
+## casting function
 This function is designed to melt and cast the splited data to calculate the means
 of each variable by activity for each subject.
