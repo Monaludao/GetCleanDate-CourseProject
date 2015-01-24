@@ -7,8 +7,10 @@ The mean_output.txt contains 81 columns of 180 rows of data. The means of each c
 are described below.
 
 1.subjects: indicates the id of test subjects from the origin dataset. range from 1 to 30.
+
 2.activity: the activities of the proformed actitivies while the data was obtained.
         including six factors: WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS, SITTING, STANDING,LAYING
+
 3-81: indicate the mean value of 79 variables for each actitivy, subject by subject.
         the variables include the estimated mean(.mean) and the standard deviation(.str) of every 
         feature vectors from the original dataset as listed below (the -XYZ stands for 3-axial directions
